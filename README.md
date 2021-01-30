@@ -12,8 +12,8 @@ Several code source plagiarism methods exist. This tool considers five of them w
 Via the *make* command in a terminal
 
 ## Program execution
-*./detecSim -h*: prints help
-*./detecSim path1 path 2*: executes the program on files path1 and path2, the files must exist and compile
+*./detecSim -h*: prints help  
+*./detecSim path1 path2*: executes the program on files path1 and path2, the files must exist and compile
 
 ## Documentation generation
 Via the *make doc* in a terminal
