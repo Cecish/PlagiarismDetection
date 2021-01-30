@@ -1,0 +1,43 @@
+README EN
+
+1) Prerequisites: Having installed gcc et uncrustify
+
+2) Compilation: "make" in the terminal
+
+3) Generating the project's documentation: "make doc" in the terminal
+
+3) Execution: 
+./detecSim -h : prints help
+./detecSim path1 path 2: executes the program on files path1 and path2, the files must exist and compile
+
+WRANINGS: 
+ - Do not delete the files config.cfg, Doxyconf, and Makefile, as well as the folders src, bin and doc
+ - You need to install uncrustify for the program do run properly -> "sudo apt-get install uncrustify" in a terminal
+
+
+NOTES:
+- The execution of the second detection method can take some time with files over 300 lines of code and/or made of numerous blocks
+- Only .C files which compile can be used to calculate similarity percentage.
+
+-----------------------------------------------------------------------------------
+
+README FR
+
+1) Prérequis: Avoir installé gcc et uncrustify
+
+2) Compilation: "make" dans le terminal
+
+3) Génerer la documentation du projet: "make doc" dans le terminal
+
+3) Execution: 
+./detecSim -h : affiche l'aide
+./detecSim chemin1 chemin2 : exécuter le programme sur les fichiers chemin1 et chemin2, les fichiers doivent exister et compiler correctement    
+
+ATTENTION : 
+ - Ne pas supprimer les fichiers config.cfg, Doxyconf, et Makefile, ainsi que les dossiers src, bin et doc
+ - Vous devez installer uncrustify pour que le programme fonctionne correctement -> "sudo apt-get install uncrustify" dans un terminal
+
+
+REMARQUES :
+- L'exécution de la 2ème méthode peut prendre du temps avec des fichiers depassant 300 lignes et/ou composés de nombreux blocs
+- Seuls des fichiers .C qui compilent peuvent être utilisés pour calculer un pourcentage de smilitude
