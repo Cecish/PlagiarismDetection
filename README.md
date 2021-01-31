@@ -25,3 +25,4 @@ Via the *make doc* in a terminal
 ## Notes:
 - The execution of the second detection method can take some time with files over 300 lines of code and/or made of numerous blocks
 - Only .C files which compile can be used to calculate similarity percentage.
+- A sample of C files (compiling or not), which can be used to test the plagiarism detection program, is provided inside the *fichiersTest* folder
